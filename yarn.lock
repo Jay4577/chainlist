@@ -478,6 +478,11 @@
   dependencies:
     "@types/node" "*"
 
+accept-language-parser@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/accept-language-parser/-/accept-language-parser-1.5.0.tgz#8877c54040a8dcb59e0a07d9c1fde42298334791"
+  integrity sha512-QhyTbMLYo0BBGg1aWbeMG4ekWtds/31BrEU+DONOg/7ax23vxpL03Pb7/zBmha2v7vdD3AyzZVWBVGEZxKOXWw==
+
 accepts@~1.3.8:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.8.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
@@ -2256,12 +2261,13 @@ negotiator@0.6.3:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
 
-next-intl@^2.7.4:
-  version "2.7.4"
-  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-2.7.4.tgz#67d3ea0b385678c7522c0e083c579ae183ed59ef"
-  integrity sha512-fspmOzhInd/m+cV3Qj6FzjfDIjEtNTS6Vi4Xv+/59ReZvcW9uGmn/py0NkltQnf5Oefl0RUZGdjbd+t6+G+PMw==
+next-intl@^2.10.2:
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-2.10.4.tgz#50cd87ed9f817dc6e54b1529f57819bf29e07d20"
+  integrity sha512-qutpLRdu8YEczjXmdiDh2GZ0+vsJnL4qD25dlQDICP3glwNKZAiY348C6DYM5dYTL/2i19C5pggRAAPuv0qyEg==
   dependencies:
-    use-intl "^2.7.4"
+    accept-language-parser "^1.5.0"
+    use-intl "^2.10.4"
 
 next-tick@~1.0.0:
   version "1.0.0"
@@ -3070,10 +3076,10 @@ url-to-options@^1.0.1:
   resolved "https://registry.yarnpkg.com/url-to-options/-/url-to-options-1.0.1.tgz#1505a03a289a48cbd7a434efbaeec5055f5633a9"
   integrity sha1-FQWgOiiaSMvXpDTvuu7FBV9WM6k=
 
-use-intl@^2.7.4:
-  version "2.7.4"
-  resolved "https://registry.yarnpkg.com/use-intl/-/use-intl-2.7.4.tgz#056ff6a73b125d2efe6f8d4bd174e5ce3d1dcd58"
-  integrity sha512-Ivo2dIUFTyLCj6YJ+fA4jsDggDQhUQSLT1OoXP7qurCAueOWFX6QaN/pL3cDR6z9gM7nVQH83piRvuBJTHjQzg==
+use-intl@^2.10.4:
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/use-intl/-/use-intl-2.10.4.tgz#2d12885b710f48be495f6b252e71af576adea637"
+  integrity sha512-wTE9eTjgRQi3PzSTIPXgAj/jgvYYnsuj1IE+L/Ng1nAIAfm+Ab0l5aQp2rXMph2SqusV/GdroO+FjRNwd41JBw==
   dependencies:
     "@formatjs/ecma402-abstract" "^1.11.4"
     intl-messageformat "^9.3.18"
